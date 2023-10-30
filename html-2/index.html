@@ -48,73 +48,72 @@
     </nav> 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-</body>
-  
-  <!-- แสดงส่วนที่เป็นภาพสไลด์ -->
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators" >
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color: rgb(0, 81, 255);margin:0px 15px 0px 15px"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" style="background-color: rgb(0, 81, 255); margin:0px 15px 0px 15px"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" style="background-color: rgb(0, 81, 255);margin:0px 15px 0px 15px"></button>
+    
+    <!-- แสดงส่วนที่เป็นภาพสไลด์ -->
+
+  <!-- Carousel -->
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" style="background-color: blue;"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1" style="background-color: blue;"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2" style="background-color: blue;"></button>
     </div>
-    <div class="col-10 container text-center">
-      <div id="mainCarousel" class="carousel-fade m-4" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="static/bg.JPG" style="width:200%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/>
-            <div class="container">
-              <div class="carousel-caption text-start">
-                <h1>คลองระบายน้ำหลากบางบาล-บางไทร</h1>
-                <p>Some representative placeholder content for the first slide of the carousel.</p>
-                <p><a class="nav-text" href="#">Learn more...</a></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <img src="static/bg_1.JPG" style="width:200%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
-            <div class="container">
-              <div class="carousel-caption text-start">
-                <h1>คลองระบายน้ำหลากบางบาล-บางไทร เฟส 2</h1>
-                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                <p><a class="nav-text" href="#">Learn more...</a></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <img src="static/research1_1.jpg" style="width:200%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
-            <div class="container">
-              <div class="carousel-caption text-start">
-                <h1 style="color: black;">การจำลองเสถียรภาพงานขุด</h1>
-                <p style="color:black">การจำลองเสถียรภาพงานขุด โดยการก่อสร้าง Cement Column ตามรูปแบบที่กำหนดเพื่อทดสอบหา....</p>
-                <p><a class="nav-text" href="research.html">Learn more...</a></p>
-              </div>
-            </div>
-          </div>
-        </button>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner" style="justify-content:center;width:90em; margin:15px 250px;">
+      <div class="carousel-item active"">
+        <img src="static/bg.jpg" alt="RID1" class="d-block" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>กรมชลประทาน บางบาล-บางไทร สัญญา1</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam officiis, dolorem animi et, consequatur quos dolore adipisci consectetur a ad nesciunt eligendi doloremque optio quis ex voluptatum laborum ipsam debitis!</p>
+          <a href="#">อ่านต่อ......</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="static/bg_1.JPG" alt="RID2" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>กรมชลประทาน บางบาล-บางไทร สัญญา2</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente maxime, consectetur, accusamus, suscipit esse ullam exercitationem optio nesciunt repellendus minima adipisci alias blanditiis unde consequatur magni laboriosam et enim temporibus!</p>
+          <a href="#">อ่านต่อ......</a>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <img src="static/research1_1.jpg" alt="research" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3 style="color:blue">การจำลองการพังทลายการขุดระดับตื้น</h3>
+          <p style="color: blue;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, sequi reprehenderit aut odit velit voluptatibus molestiae a! Iure facilis mollitia obcaecati esse fuga rerum veniam, ducimus, dolorum consectetur blanditiis ad!</p>
+          <a href="research.html">อ่านต่อ......</a>
+        </div>  
       </div>
     </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" style="background-color: rgba(0, 0, 255, 0.568);"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon" style="background-color:rgba(0, 0, 255, 0.568);"></span>
+    </button>
   </div>
-
-  <!-- aside รอบข้างภาพสไลด์ -->
-
-
+</body>
+  <footer style="position: fixed;">
+    <div class="footer-content">
+      <h3>social</h3>
+      <ul class="socials">
+        <li><a href="https://web.facebook.com/ThaiCementColumn"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.youtube.com/watch?v=7IXdCb-U-uA"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>copyright & copy;2022 Design by  <span>ThaiCement</span></p>
+    </div>
+  </footer>
 </main>
 
-<footer>
-  <div class="footer-content">
-    <h3>social</h3>
-    <ul class="socials">
-      <li><a href="https://web.facebook.com/ThaiCementColumn"><i class="fa fa-facebook"></i></a></li>
-      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-      <li><a href="https://www.youtube.com/watch?v=7IXdCb-U-uA"><i class="fa fa-youtube"></i></a></li>
-      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-      <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-    </ul>
-  </div>
-  <div class="footer-bottom">
-    <p>copyright & copy;2022 Design by  <span>ThaiCement</span></p>
-  </div>
-</footer>
+
 </html>

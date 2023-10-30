@@ -5,10 +5,10 @@ footer{
     bottom: 0;
     right: 0;
     left: 0;
-    height: 10em;
+    height: 10rem;
     width: 100vw;
     font-family: "open sans";
-    padding-bottom: oem;
+    padding-bottom: 0rem;
     color: #ffffff;
 }
 .footer-content{
@@ -19,7 +19,7 @@ footer{
     text-align: center;
 }
 .footer-content h3{
-    font: 1.8rem;
+    font: 0.5rem;
     font-weight: 200;
     text-transform: capitalize;
     line-height: 3rem;
@@ -57,7 +57,7 @@ footer{
     background: none;
     height: 0.4em;
     width: 100vw;
-    padding: 0 0;
+    padding: -5 0;
     text-align: center;
 }
 .footer-bottom p{
@@ -71,5 +71,5 @@ footer{
     font-weight: 100;
 }
 #myCarousel{
-    margin-top: 80px;
+    margin-top: 10px;
 }
