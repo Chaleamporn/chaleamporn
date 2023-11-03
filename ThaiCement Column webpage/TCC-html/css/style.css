@@ -44,7 +44,7 @@ body {
 /*header section*/
 .hero_area {
   height: 100vh;
-  background-image: url(../images/hero-bg.jpg);
+  background-image: url(../images/allmachine.jpg);
   background-size: cover;
 }
 
@@ -135,7 +135,7 @@ a:focus {
 /*end header section*/
 /* slider section */
 .slider_section {
-  height: calc(100% - 80px);
+  height: calc(100% - 100px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
